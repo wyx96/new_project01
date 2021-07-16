@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+section{
+    overflow: hidden;
+}
+div{
+    width: 200px;
+    height: 50px;
+    float: left;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
